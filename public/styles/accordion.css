@@ -1,0 +1,26 @@
+.accordion {
+}
+
+.accordion-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion-body {
+  display: none;
+}
+
+.accordion-active {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size: 80%;
+}
